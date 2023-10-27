@@ -9,6 +9,9 @@ body {
     
     
 }
+#contenedorGeneral{
+    border: red 1px solid;
+}
 
 #barraLateral {
     height: 150px;
@@ -20,7 +23,8 @@ body {
     height: 300px;
     background-color: #F5CF8E;
     width: 80%;
-    float: left;
+
+    
     
 }
 
@@ -29,7 +33,4 @@ body {
     background-color: #D6E9FE;
     clear:both;
     
-    
-
-
-}
+    }
