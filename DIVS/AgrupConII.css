@@ -2,10 +2,10 @@ h1{
     text-align: center;
 }
 
-div {
+#div {
     background-color: peru  ;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 #div1 {
     height: 60%;
@@ -23,5 +23,9 @@ div {
 
     height: 40%;
     clear: both;
+}
+#div4{
+    width: 14%;
+    
 }
 
