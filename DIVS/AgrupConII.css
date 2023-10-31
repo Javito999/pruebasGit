@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+}
+
+div {
+    background-color: peru  ;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+#div1 {
+    height: 60%;
+    width: 50%;
+    float: left;
+
+}
+#div2 { 
+    height:60%;
+    width: 50%;
+    float: left;
+    
+}
+#div3{
+
+    height: 40%;
+    clear: both;
+}
+
