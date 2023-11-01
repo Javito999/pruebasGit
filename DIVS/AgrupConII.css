@@ -6,6 +6,9 @@ h1{
     background-color: peru  ;
     margin-left: 20%;
     margin-right: 20%;
+    border-left: 20%;
+    border-right: 20%;
+
 }
 #div1 {
     height: 60%;
@@ -26,6 +29,20 @@ h1{
 }
 #div4{
     width: 14%;
+    margin-right: 90%;
+    border-right: 85%;
     
+   
+}
+#div5{
+    float: right;
+    margin-left: 85%;
+    
+    
+}
+#div6{
+    background-color: green;
+    height: 25%;
+    clear: right;
 }
 
