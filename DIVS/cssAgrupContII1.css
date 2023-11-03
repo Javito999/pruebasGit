@@ -1,0 +1,35 @@
+h1 {
+
+    text-align: center;
+
+}
+#div {
+
+    background-color: blanchedalmond;
+    width: 60%;
+    float: left;
+    
+
+    
+
+}#div1{
+    float: left;
+   width: 50%;
+
+
+}
+#div2{
+    float: right;
+    width: 50%;
+
+}
+#div3{
+    clear: both;
+
+}
+#div4{
+    float: left;
+}
+#div5{
+    
+}
