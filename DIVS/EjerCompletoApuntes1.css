@@ -1,0 +1,54 @@
+div{
+    border-style: solid;
+
+}
+#div1{
+    float: left;
+    width: 45%;
+    height: 45%;
+    border-top: hidden;
+   
+    border-left: hidden;
+    
+    
+
+}
+    
+    
+
+
+#div2{
+    float: right;
+    width: 45%;
+    height: 45%;
+    border-top: hidden;
+    border-bottom: hidden;
+    border-right: hidden;
+}
+#div3{
+    background-color: blue;
+    clear: both;
+    height: 50%;
+    border-top: hidden;
+    margin-top: 15%;
+
+}
+#h1{
+    font-weight: bold;
+
+}
+#div4{
+    text-align: center;
+    border-style: dotted;
+    border-color: chocolate;
+    border-width: 3px;
+}
+#img{
+    float: right;
+}
+#div5{
+    border-bottom: solid;
+    border-left: hidden;
+    border-top: hidden;
+    border-right: hidden;
+}
