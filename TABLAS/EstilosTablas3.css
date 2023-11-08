@@ -1,0 +1,15 @@
+table{
+    border-collapse: collapse;
+    border-color: yellow;
+}
+th,td,tr {
+    border: solid;
+    border-color: yellow;
+    
+ }
+th{
+    background-color: purple;
+ }
+tfoot{
+    background-color:yellow ;
+}

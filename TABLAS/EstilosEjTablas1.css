@@ -1,0 +1,9 @@
+th, td, tr {
+    border-style: double;
+    border: solid;
+    
+}
+table{
+    border-style: solid;
+    border: solid;
+}
