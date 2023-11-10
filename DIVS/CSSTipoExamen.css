@@ -1,0 +1,31 @@
+body{
+    background-color: gray;
+}
+h1{
+    text-align: center;
+}
+#div{
+    border-style: double;
+    border-right: hidden;
+   border-top: hidden;
+   border-left: hidden;
+}
+#div1{
+    border-style: double;
+    width: 50%;
+    margin-left: 300px;
+
+}
+#div2{
+    float: left;
+    width: 50%;
+}
+#div3{
+    float: right;
+    width: 50%;
+    
+}
+img{
+    width: 1000px;
+    
+}
