@@ -1,6 +1,39 @@
-table {
+#div{
+    background-color: beige;
+    float: left;
+    width: 50%;
+}
+
+#table1 {
     border-style: solid;
+    border-collapse: collapse;
+    margin-left: 20%;
+    width: 500px;
+    height: 300px;
 }
 tr, th, td {
+    border-style: double;
     border-style: solid;
+    border-color: pink;
+    text-align: center;
 }
+
+#table2{
+    border-style: solid;
+    border-collapse: collapse;
+    width: 500px;
+    height: 300px;
+    margin-left: 20%;
+    
+}
+#div2{
+    background-color: rgb(163, 209, 224);
+    width: 900px;
+    float: right;
+   
+}
+#caption{
+    margin-left: 100px;
+}
+
+

@@ -7,34 +7,76 @@
     <link rel="stylesheet" href="./Estilos/EstilosEjTablas2.css">
 </head>
 <body>
-    <div>
+    <div id="div">
         <h1>Tabla 1 </h1>
-        <table>
+        <table id="table1">
             <tr>
                 <th>A</th>
                 <th>B</th>
-                <th>C</th>
-                <th>D</th>
-                <th>E</th>
-                <th>H</th>
-                <th>L</th>
+                <th colspan="2">C</th>
+                <th></th>
+                <th rowspan="3" colspan="3">D,H,L</th>
+                
             </tr>
              <tr>
                 <td>E</td>
                 <td>I</td>
                 <td>F</td>
-                <td>G</td>
+                
             </tr>
             <tr>   
                 <td>J</td>    
-                <td>K</td>
-                <td>O</td>
+                <td colspan="2" rowspan="2">K,O</td>
+                <td></td>
             </tr>
             <tr>
-                <td>M</td>
-                <td>N</td>
-                <td>P</td>
+                <td colspan="2">M,N</td>
+                
+                <td></td>
+                
+                <td rowspan="3">P</td>
+
             </tr>
+
+        </table>
+    </div>
+    <div id="div2">
+        <h1>Tabla 2</h1>
+        <caption id="caption"><span style="color: pink;">Este el el caption de la tabla</span></caption>
+        <table id="table2">
+        <tr>
+            <th>Alumno</th>
+            <th>Pendientes</th>
+            <th>Nº</th>
+            <th>Recuperación</th>
+        </tr>
+
+        <tr>
+
+            <td>Elena</td>
+            <td>Si</td>
+            <td>1</td>
+            <td>Febrero</td>
+        </tr>
+        <tr>
+            <td>Juan</td>
+            <td>No</td>
+            <td>--</td>
+            <td>--</td>
+        </tr>
+        <tr>
+            <td>Luis</td>
+            <td>Si</td>
+            <td>3</td>
+            <td>Septiembre</td>
+        </tr>
+        <tr>
+            <td>Roberto</td>
+            <td>No</td>
+            <td>--</td>
+            <td>--</td>
+        </tr>
+
 
         </table>
     </div>
