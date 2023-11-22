@@ -1,0 +1,25 @@
+
+
+#div2{
+    clear: both;
+    width: 500px;
+    height: 500px;
+    margin-left: 650px;
+    
+}
+#div1{
+    float: right;
+    
+    
+    
+}
+#div{
+    margin-left: 20%;
+    margin-right: 250px;
+    width: 100px;
+    height: 100px;
+   
+    
+    float: left;
+    
+}
