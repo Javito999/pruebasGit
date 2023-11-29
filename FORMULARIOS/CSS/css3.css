@@ -10,7 +10,9 @@ border-style: dotted;
 border-color: blue;
 width: 430px;
 margin-left: 525px;
+}
+#div{
 
-
-
+    width: 500px;
+    height: 500px;
 }

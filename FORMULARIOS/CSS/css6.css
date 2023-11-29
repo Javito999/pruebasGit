@@ -1,0 +1,24 @@
+#div1{
+    border-style: dotted;
+    border-color: yellow;
+    width: 480px;
+    height: 30px;
+    margin-left: 500px;
+    }
+    #div2{
+    border-style: dotted;
+    border-color: blue;
+    width: 430px;
+    margin-left: 525px;
+    }
+    #div{
+    margin-right: 200px;
+    margin-left: 200px;
+
+       
+    }
+    #button{
+
+     margin-left: 675px;
+    }
+    

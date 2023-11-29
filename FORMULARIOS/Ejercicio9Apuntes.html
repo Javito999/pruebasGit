@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJERCICIO 9 APUNTES</title>
+    <link rel="stylesheet" href="./CSS/cssEj9.css">
+</head>
+<body>
+
+    <form action="inmobiliarias.com" >
+        <label for="formulario">Seleccione el tipo de inmueble</label>
+        <select name="select" id="formulario">
+            <option value="" selected>Escoja una opción</option>
+            <option value="opcion1">Casa individual</option>
+            <option value="opcion2">Piso</option>
+            <option value="opcion3">Adosado</option>
+        </select>
+            <br>
+            <br>
+        <label for="input1">Calle</label><input type="text" id="input1" required>
+            <br>
+            <br>
+        <label for="input2">Número</label><input type="number" id="input2" required minlength="1" maxlength="250" size="3">
+            <br>
+            <br>
+        <label for="input3">Piso</label><input type="number" id="input3"><label for="input4">Puerta</label><input type="text" id="input4">
+            <br><br>
+        <label for="Input5">Email</label><input type="email" id="Input5">
+        <label for="input6">Número de teléfono</label><input type="number" id="input6" min=" 600000000" max=" 699999999">
+            <br>
+            <br>
+            <br>
+            <br>
+        <label for="campo">Descripcion del inmueble</label>
+            <br>
+            <br>
+        <textarea name="Campo de descripcion" id="campo" cols="30" rows="10"></textarea>
+            <br>
+            <br>
+        <button>Enviar</button>
+        <button type="reset">Limpiar</button>
+    </form>
+    
+</body>
+</html>
