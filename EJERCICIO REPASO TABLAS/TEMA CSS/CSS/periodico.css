@@ -1,0 +1,75 @@
+header h1{
+
+    position: relative;
+    left: 100px;
+
+    
+
+}
+header input{
+    position: relative;
+    float: right;
+    right: 650px;
+}
+header img{
+
+    float: left;
+}
+nav {
+    position: fixed;
+    width: 100px;
+    height: 400px;
+    
+    top: 300px;
+}
+aside {
+    position: fixed;
+    right: 650px;px;
+    
+
+}
+article {
+    width: 800px;
+    position: relative;
+    left: 100px;
+    right: 200px;
+    
+}
+#a1 {
+    position: relative;
+    width: 350px;
+    left: 0%;
+    margin-right: ;
+}
+#a2 {
+    width: 350px;
+    
+    position: relative;
+
+    left: 500px;
+
+    bottom: 560px;
+    
+
+}
+#a3{
+    width: 350px;
+    position: relative;
+    top: 0%;
+
+}
+#a4{
+    width: 170px;
+    position: relative;
+    left: 500px;
+    bottom: 570px;
+
+}
+#a5{
+    width: 175px;
+    position: relative;
+    left: 750px;
+    bottom: 1750px;
+    
+
+}
