@@ -18,6 +18,8 @@ function crearArray(){
     let nuevaArray1 = array.slice(3,6);
     console.log(nuevaArray1);
 
+    //ejercicio 7 de los apuntes no terminado.
+
     
 
 
