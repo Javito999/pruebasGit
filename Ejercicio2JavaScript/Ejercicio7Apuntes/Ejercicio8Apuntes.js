@@ -36,5 +36,22 @@ if(edad < 6){
 
         console.log("Sherlock");
     }
-        
+
+    // parte 4 del ejecicio 8 de los apuntes
+
+    let contador;
+
+    do{
+
+        contador=parseInt(prompt("Introduzca un número"));
+
+    }while(contador>= 45 && contador <=72);
     
+    // esta segunda solución de la parte 4 del ejercicio es la que funciona
+    let salida = true;
+    do{
+        var respuesta = parseInt(prompt("Introduzca un número"));
+        if(respuesta>= 45 && respuesta <= 72){
+            salida=false;
+        }
+    }while(salida);
