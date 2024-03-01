@@ -44,10 +44,12 @@ function añadirHijo(){
      let hijo = document.createElement("p");
      hijo.innerText = "Hijo de cuatro";
      cambioListaElemento.appendChild(hijo);
-
-
-
 }
 
+function cambiarTitulo(){
+
+let encabezado = 
+
+}
     
 
