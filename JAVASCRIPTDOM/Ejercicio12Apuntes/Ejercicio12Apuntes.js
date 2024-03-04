@@ -51,8 +51,8 @@ function añadirHijo(){
     
 function boton1(){
 
-    let parrafo = document.getElementsByTagName("p"[0]);
-    parrafo.classList.add(efectosboton1);
+    let parrafo = document.getElementsByTagName("p")[0];
+    parrafo.classList.add('efectosboton1');
     
 
     
