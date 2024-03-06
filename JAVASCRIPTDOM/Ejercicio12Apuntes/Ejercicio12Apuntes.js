@@ -53,12 +53,42 @@ function boton1(){
 
     let parrafo = document.getElementsByTagName("p")[0];
     parrafo.classList.add('efectosboton1');
-    
 
-    
+    let lista = document.getElementsByTagName("ol")[0]; 
+    let cambioListaElemento = document.getElementsByTagName("li");
 
+    for(let index = 0; index < lista.length; index++){
+        lista[index].classList.add("efectosboton1a");
+    }
+
+    let titulo = document.getElementById("encabezado1");
+    titulo.setAttribute("class", "efectoParrafo");
+    
+    }
+
+    function boton2(){
+
+        let parrafo = document.getElementsByTagName("p")[0];
+        parrafo.classList.add('efectoboton2p');
+        let lista = document.getElementsByTagName("ol")[0];
+        lista.classList.add('efectoboton2');
+        let elementosLista = document.getElementsByTagName("li");
+        for (let index = 0; index < elementosLista.length; index++) {
+            elementosLista[index].classList.add('efectoBoton2li');
+            
+        }
+    
+        elementosLista.classList.add('efectoboton2li');
+
+        let titulo = document.getElementById("encabezado1");
+        titulo.classList.add("efectosombraboton2");
+
+}
+
+function boton3(){
 
 
 
 }
+  
 
