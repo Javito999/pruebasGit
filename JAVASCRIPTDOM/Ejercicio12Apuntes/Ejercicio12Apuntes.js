@@ -87,6 +87,8 @@ function boton1(){
 
 function boton3(){
 
+    let parrafo = document
+
 
 
 }
