@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mensajeria>
+
+    <pedido>
+
+    <Destinatario>
+        <nombre></nombre>
+        <direccion></direccion>
+    </Destinatario>
+
+    <producto>
+        <tipo_producto></tipo_producto>
+        <importe></importe>
+    </producto>
+
+    <Dia_entrega>
+        <fecha></fecha>
+    </Dia_entrega>
+
+    </pedido>
+
+</Mensajeria>
