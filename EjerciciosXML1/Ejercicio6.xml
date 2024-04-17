@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<articulosGastronomicos>
+    <articulo id='1'>
+        <autor>Danny Salas</autor>
+        <titular>Amazon Prime
+            Now: Cómo hacer
+            la compra online
+            y que llegue en
+            dos días
+        </titular>
+        <descipcion>Amazon Prime Now se
+            convierte en una de las
+            mejores alternativas para
+            hacer la compra online estos
+            días. Con este truco la
+            recibirás en dos días
+        </descipcion>
+        <fechaDePublicacion>25/03/2020</fechaDePublicacion>
+        <palabrasClave1>COVID-19</palabrasClave1>
+        <palabrasClave2>Compra</palabrasClave2>
+    </articulo>
+
+    <articulo id='2'>
+        <autor>Mer Bonilla</autor>
+        <titular>11 recetas de
+            brownie para
+            alegrar la
+            cuarentena de los
+            más golosos
+        </titular>
+        <descipcion>Es uno de los bizcochos de
+            chocolate más famosos y el
+            favorito de muchos golosos,
+            solo o con helado, estas
+            recetas de brownie son el
+            cielo hecho pastel
+        </descipcion>
+        <fechaDePublicacion>24/03/2020</fechaDePublicacion>
+        <palabrasClave1>Brownie</palabrasClave1>
+        <palabrasClave2>Repostería</palabrasClave2>
+    </articulo>
+
+</articulosGastronomicos>

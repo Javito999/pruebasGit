@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<refugioAnimales>
+    <animal id='1' tipo='gato'> 
+        <nombre>Neo</nombre>
+        <especie>gato</especie>
+        <edad>3</edad>
+        <genero>macho</genero>
+        <estadoFertilidad>Castrado</estadoFertilidad>
+    </animal>
+    <animal id='2' tipo='gato'> 
+        <nombre>Firu</nombre>
+        <especie>gato</especie>
+        <edad>2</edad>
+        <genero>macho</genero>
+        <estadoFertilidad>No castrado</estadoFertilidad>
+    </animal>
+    <animal id='3' tipo='gato'> 
+        <nombre>leon</nombre>
+        <especie>gato</especie>
+        <edad>4</edad>
+        <genero>macho</genero>
+        <estadoFertilidad>No Castrado</estadoFertilidad>
+    </animal>
+    <animal id='4' tipo='perro'> 
+        <nombre>Lula</nombre>
+        <especie>gato</especie>
+        <edad>2</edad>
+        <genero>hembra</genero>
+        <estadoFertilidad>Esterilizada</estadoFertilidad>
+    </animal>
+    <animal id='5' tipo='perro'> 
+        <nombre>Gris</nombre>
+        <especie>perro</especie>
+        <edad>1</edad>
+        <genero>macho</genero>
+        <estadoFertilidad>Castrado</estadoFertilidad>
+    </animal>
+    <animal id='6' tipo='perro'> 
+        <nombre>Dina</nombre>
+        <especie>perra</especie>
+        <edad>5</edad>
+        <genero>hembra</genero>
+        <estadoFertilidad>No Esterilizada</estadoFertilidad>
+    </animal>
+    <animal id='7' tipo='perro'> 
+        <nombre>Grana</nombre>
+        <especie>perra</especie>
+        <edad>2</edad>
+        <genero>hembra</genero>
+        <estadoFertilidad>Esterilizada</estadoFertilidad>
+    </animal>
+    <animal id='8' tipo='cochino'> 
+        <nombre>Teo</nombre>
+        <especie>cerdo vietnamita</especie>
+        <edad></edad>
+        <genero>macho</genero>
+        <variedad>Caio OMong</variedad>
+    </animal>
+    <animal id='9' tipo='cochino' > 
+        <nombre>Triana</nombre>
+        <especie>cerdo vietnamita</especie>
+        <edad></edad>
+        <genero>hembra</genero>
+        <variedad>Heo Moi</variedad>
+    </animal>
+
+
+</refugioAnimales>

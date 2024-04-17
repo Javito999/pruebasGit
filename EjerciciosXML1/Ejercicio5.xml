@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gastosFamiliares>
+
+    <mes mes='Enero'>
+        <seguro tipo='coche'>535 €</seguro>
+        <impuestos tipo='IBI'>168 €</impuestos>
+        <impuestos tipo='basura'>47 €</impuestos>
+    </mes>
+
+    <mes mes='febrero'>
+        <matriculas tipo='universidad'>689 €</matriculas>
+        <seguro tipo='caldera'>121 €</seguro>
+    </mes>
+
+    <mes mes='marzo'>
+        <seguro tipo='hogar'>375 €</seguro>
+        <otrosPagos tipo='gym'>75 €</otrosPagos>
+    </mes>
+    
+</gastosFamiliares>

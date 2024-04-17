@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<almacen>
+
+    <Fruteria nombre='Frutería Nines'>
+        
+        <pedido id='1'>
+            <cantidad>2 cajas</cantidad>
+            <producto>manzana granny</producto>
+            <precioPorKilo>1.5 €</precioPorKilo>
+        </pedido>
+        <pedido id='2'>
+            <cantidad>15 kilos</cantidad>
+            <producto>Naranjas Isabel</producto>
+            <precioPorKilo>0.72 €</precioPorKilo>
+        </pedido>
+        <pedido id='3'>
+            <cantidad>25 sacos</cantidad>
+            <producto>Patatas</producto>
+            <precioPorKilo>0.08 €</precioPorKilo>
+        </pedido>
+    </Fruteria>
+
+    <Fruteria nombre='Frutería Nines'>
+        
+        <pedido id='1'>
+            <cantidad>2 cajas</cantidad>
+            <producto>manzana granny</producto>
+            <precioPorKilo>1.5 €</precioPorKilo>
+        </pedido>
+        <pedido id='2'>
+            <cantidad>15 kilos</cantidad>
+            <producto>Naranjas Isabel</producto>
+            <precioPorKilo>0.72 €</precioPorKilo>
+        </pedido>
+        <pedido id='3'>
+            <cantidad>25 sacos</cantidad>
+            <producto>Patatas</producto>
+            <precioPorKilo>0.08 €</precioPorKilo>
+        </pedido>
+    </Fruteria>
+
+
+
+
+
+
+
+</almacen>
