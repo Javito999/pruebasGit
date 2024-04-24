@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Mensajeria SYSTEM "./dtd/ejercicio1.dtd">
 <Mensajeria>
 
     <pedido>
 
-    <Destinatario>
+    <Destinatario codCliente="A5">
         <nombre></nombre>
         <direccion></direccion>
     </Destinatario>
 
-    <producto tipo="">
+    <producto >
         <tipo_producto></tipo_producto>
         <importe></importe>
     </producto>
@@ -16,6 +17,7 @@
     <Dia_entrega>
         <fecha></fecha>
     </Dia_entrega>
+    
 
     </pedido>
 

@@ -1,0 +1,18 @@
+<!ELEMENT clientes (personas? | empresas?)>
+<!ELEMENT personas (personas+)>
+<!ELEMENT empresas (empresa?)>
+<!ELEMENT empresas (#PCDATA)>
+<!ELEMENT personas (#PCDATA)>
+
+<!ELEMENT liga (jornada+)>
+<!ELEMENT jornada (completa | parcial)>
+<!ELEMENT completa (#PCDATA)>
+<!ELEMENT parcial (#PCDATA)>
+
+<!ELEMENT pelicula (local | extranjera)>
+<!ELEMENT nombre (#PCDATA)>
+<!ATTLIST pelicua nombre CDATA #REQUIRED>
+<!ELEMENT local (#PCDATA)>
+<!ELEMENT extranjero (idioma, pais?)>
+<!ELEMENT idioma (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>

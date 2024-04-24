@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE liga SYSTEM "./dtd/ejemploApuntes.dtd">
+<liga>
+<equipos maximo="18">
+<equipo codEquipo="E001" categoria="2a">Valencia</equipo>
+<equipo codEquipo="E002" categoria="1a">Madrid</equipo>
+</equipos>
+<jugadores >
+<jugador equipo="E001">José Pérez</jugador>
+<jugador equipo="E002">José Pérez</jugador>
+<jugador equipo="E003">José Pérez</jugador> <!--Error-->
+</jugadores>
+</liga>

@@ -1,0 +1,13 @@
+<!ELEMENT Mensajeria (pedido*)>
+<!ELEMENT pedido (Destinatario, producto+, Dia_entrega)>
+
+<!ELEMENT Destinatario (nombre, direccion)>
+<!ATTLIST Destinatario  
+            codCliente ID #IMPLIED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT producto (tipo_producto, importe)>
+<!ELEMENT tipo_producto (#PCDATA)>
+<!ELEMENT importe (#PCDATA)>
+<!ELEMENT Dia_entrega (fecha)>
+<!ELEMENT fecha (#PCDATA)>

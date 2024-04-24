@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gruposanguineo [
+    
+    <!ELEMENT gruposanguineo (A|B|AB|O)>
+    <!ELEMENT A (#PCDATA)>
+    <!ELEMENT B (#PCDATA)>
+    <!ELEMENT AB (#PCDATA)>
+    <!ELEMENT O (#PCDATA)>
+]>
+<gruposanguineo>
+    <A></A>
+</gruposanguineo>

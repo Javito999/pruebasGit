@@ -1,0 +1,11 @@
+<!ELEMENT liga (equipos, jugadores)>
+<!ELEMENT equipos (equipo)+>
+<!ATTLIST equipos
+maximo CDATA #FIXED "18">
+<!ELEMENT jugadores (jugador)+>
+<!ELEMENT equipo (#PCDATA)>
+<!ATTLIST equipo
+codEquipo ID #REQUIRED
+categoria (1a|2a|3a) #REQUIRED>
+<!ELEMENT jugador (#PCDATA)>
+<!ATTLIST jugador equipo IDREF #IMPLIED>
