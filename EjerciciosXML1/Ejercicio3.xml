@@ -1,51 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tablaEsperanzaDeVida SYSTEM "./dtd/ejercicio3.dtd">
 <tablaEsperanzaDeVida>
-    <tabla id='1'>
+    <tabla id='i1'>
         <region>Com. de Madrid</region>
         <pais>Espanha</pais>
         <esperanzaVida>85.2</esperanzaVida>
     </tabla>
-    <tabla id='2'>
+    <tabla id='i2'>
         <region>Ticinio(Tesino)</region>
         <pais>Suiza</pais>
         <esperanzaVida>85.0</esperanzaVida>
     </tabla>
-    <tabla id='3'>
+    <tabla id='i3'>
         <region>La Rioja</region>
         <pais>Espanha</pais>
         <esperanzaVida>84.3</esperanzaVida>
     </tabla>
-    <tabla id='4'>
+    <tabla id='i4'>
         <region>Castilla y leon</region>
         <pais>Espanha</pais>
         <esperanzaVida>84.3</esperanzaVida>
     </tabla>
-    <tabla id='5'>
+    <tabla id='i5'>
         <region>Trento</region>
         <pais>Itaia</pais>
         <esperanzaVida>84.3</esperanzaVida>
     </tabla>
-    <tabla id='6'>
+    <tabla id='i6'>
         <region>Ile de France</region>
         <pais>Francia</pais>
         <esperanzaVida>84.2</esperanzaVida>
     </tabla>
-    <tabla id='7'>
+    <tabla id='i7'>
         <region>Navarra</region>
         <pais>Espanha</pais>
         <esperanzaVida>84.1</esperanzaVida>
     </tabla>
-    <tabla id='8'>
+    <tabla id='i8'>
         <region>Bolzano/Bozen</region>
         <pais>Italia</pais>
         <esperanzaVida>84.1</esperanzaVida>
     </tabla>
-    <tabla id='9'>
+    <tabla id='i9'>
         <region>Umbria</region>
         <pais>Italia</pais>
         <esperanzaVida>84.1</esperanzaVida>
     </tabla>
-    <tabla id='10'>
+    <tabla id='i10'>
         <region>Londres-Oeste</region>
         <pais>Reino Unido</pais>
         <esperanzaVida>84.1</esperanzaVida>

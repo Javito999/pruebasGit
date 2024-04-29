@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libros SYSTEM "../dtd/ejercicio5.dtd">
+<libros>
+    <libro libroId="a1">
+        <autor></autor>
+        <imagen></imagen>
+        <contenido>&</contenido>
+        <nuevaEdicion></nuevaEdicion>
+    </libro>
+    <libro libroId="a2">
+        <autor></autor>
+        <imagen></imagen>
+        <contenido></contenido>
+        <nuevaEdicion></nuevaEdicion>
+    </libro>
+
+
+
+</libros>

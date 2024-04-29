@@ -1,5 +1,5 @@
 <!ELEMENT tablaEsperanzaDeVida (tabla+)>
-<!ELEMENT tabla (region, pais, speranzaVida)>
+<!ELEMENT tabla (region, pais, esperanzaVida)>
     <!ATTLIST tabla  id ID #REQUIRED>
 <!ELEMENT region (#PCDATA)>
 <!ELEMENT pais (#PCDATA)>
