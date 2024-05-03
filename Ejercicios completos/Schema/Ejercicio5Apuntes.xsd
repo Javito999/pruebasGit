@@ -1,0 +1,18 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="root-element">
+        
+    </xs:element>
+    
+    <xs:element name="hotel" type="xs:string" minOccurs="5" maxOccurs="300" ></xs:element>
+
+    <xs:element name="edad" type="xs:int" maxOccurs="unbounded"></xs:element>
+
+
+    <xs:element name="color" default="verde"></xs:element>
+
+    <xs:element name="conseguido" ></xs:element>
+
+   
+
+
+</xs:schema>
