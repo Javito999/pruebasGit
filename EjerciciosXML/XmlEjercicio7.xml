@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="Ejercicio7b.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<TiempoSalamanca>
+    <temperaturaSalamanca>33</temperaturaSalamanca>
+    <climatologia>Sol</climatologia>
+    <infoAlertas>
+        precaución por altas temperaturas,
+        buscar la sombre en horas de máxima 
+        temperatura.
+        Recuerden hidratarse convenientemente.
+    </infoAlertas>
+</TiempoSalamanca>

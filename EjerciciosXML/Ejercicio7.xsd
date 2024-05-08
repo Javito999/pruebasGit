@@ -1,5 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+
 <xsd:schema xmlns:xsd="http//www.w3.org/2001/XMLSchema">
+<!-- Primero: Tipo de datos con nombre tipoCantidad, tomando como base el tipo
+decimal, que admita números con 3 decimales y 11 dígitos en total. -->
+
 <xsd:simpleType name="tipoCantidad" >
     <xsd:restriction base="xsd:decimal">
         <xsd:totalDigits value="11"/>
@@ -7,6 +10,42 @@
     </xsd:restriction>
 </xsd:simpleType>
 
-</xsd:schema>   
-<xsd:simpleType base="xsd:string">
+<!--  Segundo: Tipo de datos basado en string, para almacenar direcciones, donde todos
+los caracteres de espaciado al principio o final de la cadena tendrán que
+desaparecer y, de encontrarse en medio, ser sustituidos todos los que se
+encuentren de forma consecutiva por un solo espacio en blanco -->
+
+<xsd:element name="direcciones" type="token"/>
+
+<!--  Tercero: Tipo de datos, basado en token, que solo permita las cuatro estaciones-->
+
+<xsd:simpleType name="estaciones">
+    <xsd:restriction base="xsd:token">
+        <xsd:enumeration value="primavera"/>
+        <xsd:enumeration value="verano"/>
+        <xsd:enumeration value="otoño"/>
+        <xsd:enumeration value="invierno"/>
+    </xsd:restriction>
 </xsd:simpleType>
+
+<!--  Cuarto: Tipo de datos, basado en string, que permita cadenas de 7 caracteres para
+almacenar códigos de empleado.-->
+
+<xsd:simpleType name="empleado">
+    <xsd:restriction base="xsd:string">
+        <xsd:length value="7"/>
+    </xsd:restriction>
+</xsd:simpleType>
+
+<!--  Quinto: Tipo de datos con nombre tipoFecha, toando como base el tipo
+predefinido date, que no permita valores por debajo del 1 de Enero de
+1900 ni por encima del 31 de diciembre de 2019-->
+
+<xsd:simpleType name="tipoFecha">
+    <xsd:restriction base="xsd:date">
+        <xsd:minInclusive value="1900-01-01"/>
+        <xsd:maxInclusive value="2019-12-31"/>
+    </xsd:restriction>
+</xsd:simpleType>
+
+</xsd:schema>   

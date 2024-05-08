@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="file.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<xsd:simpleType name="temperaturaSalamanca">
+    <xsd:restriction base="xsd:decimal">
+        <xsd:fractionDigits value="2"/>
+        <xsd:minInclusive value="-20"/>
+        <xsd:maxInclusive value="50"/>
+    </xsd:restriction>
+</xsd:simpleType>
+
+<xsd:simpleType name="climatologia">
+    <xsd:restriction base="xsd:token">
+       
+        <xsd:enumeration value="sol"/>
+        <xsd:enumeration value="lluvia"/>
+        <xsd:enumeration value="nubes"/>
+        <xsd:enumeration value="nieve"/>
+        <xsd:enumeration value="granizo"/>
+        <xsd:enumeration value="viento"/>
+    </xsd:restriction>
+</xsd:simpleType>
+
+<xsd:simpleType name="infoAlertas">
+    <xsd.restriction base="xsd:string">
+       
+        <xsd:maxInclusive value="120"/>
+    </xsd.restriction>
+</xsd:simpleType>
+
+<xsd:element name="temperaturaSalamanca" type="temperaturaSalamanca"/>
+<xsd:element name="climatologia" type="climatologia"/>
