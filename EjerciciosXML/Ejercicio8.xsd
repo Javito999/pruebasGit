@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-    <xs:element name="tiposSimples">
-        
+    
+        <xs:simpleType name="matriculaNueva">
+            <xs:restriction base="xs:string">
+                <xs:pattern value="[0-9]{4}[A-Z]{3}"/>
+            </xs:restriction>
+         </xs:simpleType>
+    
 
-        
-    </xs:element>
+
+    <xs:simpleType name="matriculaAntigua"> 
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[A-Z]{2}-[0-9]{4}"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:element name="matriculaAntigua" type="xs:string"/>
+
+    <xs:element name="matriculaNueva" type="xs:string"/>
+
+    
 </xs:schema>
