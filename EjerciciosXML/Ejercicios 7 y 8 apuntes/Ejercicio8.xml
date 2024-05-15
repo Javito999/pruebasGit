@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="Ejercicio8.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
 
-
+<matriculas>
+    
 <matriculaNueva>5212-ACD</matriculaNueva>
 
 <matriculaAntigua>SA-4215-D</matriculaAntigua>
+
+</matriculas>
