@@ -6,6 +6,7 @@
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <xsd:element name="ejemplos">
         <xsd:complexType>
+            
             <!-- En un documento XML instancia de este esquema, el elemento raiz ejemplos contendrá una 
                 secuencia formada por,como máximo, 4 ocurrencias de cualquiera de los elementos
                 vacio, conTextoyAttr y conSoloAttr-->
