@@ -1,0 +1,10 @@
+<!ELEMENT electrodomesticos (electrodomestico)*>
+<!ELEMENT electrodomestico (modelo, foto+, descripcion, garantia?, precio, vendedor)>
+<!ELEMENT modelo (#PCDATA)>
+<!ELEMENT foto (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT garantia (#PCDATA)>
+<!ATTLIST garantia unidadTiempo CDATA #REQUIRED>
+<!ELEMENT precio (#PCDATA)>
+<!ATTLIST precio unidadPrecio CDATA #REQUIRED>
+<!ELEMENT vendedor (#PCDATA)>

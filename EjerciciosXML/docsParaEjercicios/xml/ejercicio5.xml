@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF‐8"?>
+<email>
+    <de> sonia@gmail.es </de>
+    <a> alumno1@gemail.es </a>
+    <contenido>
+        Buenos días
+        <destinatario> Rubén </destinatario>
+        , adjunto información sobre los ejercicios obligatorios
+        <modulo> Lenguajes de Marcas </modulo>
+        <ejercicios>
+            <ejercicio>
+                <tema> DTD </tema>
+                <descripcion> Ejercicio1: Definición de DTDs </descripcion>
+            </ejercicio>
+            <ejercicio>
+                <tema> XSD </tema>
+                <descripcion> Ejercicio2: Conversión de DTDs en XML Schemas </descripcion>
+            </ejercicio>
+        </ejercicios>
+        Un saludo,
+        <remitente> Sonia </remitente>
+    </contenido>
+</email>

@@ -1,0 +1,10 @@
+<!ELEMENT curso (titulo, modulo+)>
+<!ELEMENT modulo (titulo, ponente+, fechaInicio, fechaFin)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT ponente (nombre, telefono)>
+<!ATTLIST ponente 
+    numDocente ID #REQUIRED>
+<!ELEMENT fechaInicio (#PCDATA)>
+<!ELEMENT fechaFin (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>

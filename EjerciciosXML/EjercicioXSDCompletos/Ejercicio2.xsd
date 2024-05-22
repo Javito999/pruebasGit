@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    
+    <xsd:complexType name="tipoEstadoCivil">
+        <xsd:choice>
+            <xsd:element name="Soltero" type="xsd:string"/>
+            <xsd:element name="Casado" type="xsd:string"/>
+            <xsd:element name="Viudo" type="xsd:string"/>
+            <xsd:element name="Divorciado" type="xsd:string"/>
+        </xsd:choice>
+    </xsd:complexType>
+
+    <xsd:simpleType name="tipoDni">
+        <xsd:restriction base="xsd:nonNegativeInteger">
+            <xsd:pattern value="\d{8}[A-Z]{1}\d"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:simpleType name="tipoEdad">
+        <xsd:restriction base="xsd:int"> 
+            <xsd:minInclusive value="16"/>
+            <xsd:maxInclusive value="70"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+
+
+    <xsd:complexType name="Solicitante">
+        <xsd:sequence>
+            <xsd:element name="Nombre" type="xsd:string"/>
+            <xsd:element name="Apellido" type="xsd:string"/>
+            <xsd:element name="EstadoCivil" type="tipoEstadoCivil"/>
+            <xsd:element name="Dni" type="tipoDni"/>
+            <xsd:element name="Edad" type="tipoEdad"/>
+            <xsd:element name="Activo" type="xsd:boolean"/>
+            <!-- este último está imcompleto-->
+        </xsd:sequence>
+
+
+    </xsd:complexType>
+
+
+
+
+</xsd:schema>
