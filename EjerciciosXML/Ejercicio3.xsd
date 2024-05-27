@@ -1,19 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
- 
+ <!-- Elementos que componen el elemento raíz-->
         <xsd:complexType name="tipoPrecioTotal">
             <xsd:sequence>
                 <xsd:element name="PrecioTotalSinIva" type="xsd:decimal"/>
+                <xsd:element name="PorcentajeIvaAplicable" type="tipoPorcentajeIvaAplicable"/>
+                <xsd:element name="PrecioIVA" type="tipoPrecioIva"/>
+                <xsd:element name="moneda" type="xsd:token"/>
+            </xsd:sequence>
+        </xsd:complexType>
+
+        <xsd:complexType name="tipoPorcentajeIvaAplicable">
+            <xsd:choice>
+                <xsd:element name="porcentaje4" type="xsd:int"/>
+                <xsd:element name="porcentaje10" type="xsd:int"/>
+                <xsd:element name="porcentaje21" type="xsd:int"/>
+            </xsd:choice>
+        </xsd:complexType>
+
+        <xsd:complexType name="tipoFormaDePago">
+            <xsd:choice>
+                <xsd:element name="Efectivo" type="xsd:string"/>
+                <xsd:element name="Tarjeta" type="tipoTarjeta"/>
+            </xsd:choice>
+        </xsd:complexType>
+
+        <xsd:complexType name="tipoDatosDeTienda">
+            <xsd:sequence>
+                <xsd:element name="Nombre" type="xsd:string"/>
+                <xsd:element name="CIF" type="tipoCIF"></xsd:element>
+                <xsd:element name="Telefono" type="tipoTelefono"></xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+
+<!-- Elementos que componen los otros elementos-->
+        <xsd:simpleType name="tipoPrecioIva">
+            <xsd:restriction base="xsd:decimal">
+                <xsd:fractionDigits value="2"/>
+            </xsd:restriction>
+        </xsd:simpleType>
+
+        <xsd:complexType name="tipoTarjeta">
+            <xsd:sequence >
+                <xsd:element name="tipoDeTarjeta" type="textoTipoDeTarjeta"/>
+                <xsd:element name="numeroDeTarjeta" type="tipoNumeroDeTarjeta">
+                    <!-- no puedo insertar aqui el pattern-->
+                    <!-- ^\*\*\*\*\*\*\*\*\*\*\*[0-9]{4}$ -->
+                </xsd:element>
+                <xsd:element name="NombreCliente" type="xsd:string"/>
+               
             </xsd:sequence>
         </xsd:complexType>
 
 
+        <xsd:complexType name="textoTipoDeTarjeta">
+            <xsd:attribute name="Tarjeta" type="xsd:string"/>
+        </xsd:complexType>
 
+
+        <xsd:complexType name="tipoNumeroDeTarjeta">
+           <xsd:simpleContent>
+                <xsd:extension base="xsd:string">
+                     <xsd:attribute name="digitosTarjeta" type="xsd:string" use="required"/>
+                </xsd:extension>
+             </xsd:simpleContent>
+        </xsd:complexType>
+
+        <xsd:simpleType name="tipoCIF">
+            <xsd:restriction base="xsd:string">
+                <xsd:pattern value="^[a-zA-Z][0-9]{8}$"></xsd:pattern>
+            </xsd:restriction>
+        </xsd:simpleType>
+
+        <xsd:simpleType name="tipoTelefono">
+            <xsd:restriction base="xsd:integer">
+                <xsd:totalDigits value="9"/>
+            </xsd:restriction>
+        </xsd:simpleType>
+
+
+
+<!-- Elemento raiz-->
         <xsd:complexType name="Ticket" >
             <xsd:sequence>
                 <xsd:element name="CodigoTicket" type="xsd:int" id="Código"/>
                 <xsd:element name="FechaYHora" type="xsd:dateTime"/>
                 <xsd:element name="PrecioTotal" type="tipoPrecioTotal"/>
+                <xsd:element name="FormaDePago" type="tipoFormaDePago"/>
+                <xsd:element name="DatosDeTienda" type="tipoDatosDeTienda"></xsd:element>
             </xsd:sequence> 
 
         </xsd:complexType>
