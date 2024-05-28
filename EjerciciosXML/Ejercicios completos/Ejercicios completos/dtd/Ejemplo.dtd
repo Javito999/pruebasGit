@@ -1,0 +1,13 @@
+<!ELEMENT COCHE ANY> <!-- contenido cualquier cosa-->
+<!ELEMENT coche EMPTY> <!-- CONTENDIO VACIO-->
+<!ELEMENT COCHE (#PCDATA)><!-- DATOS TEXTUALES, NUMERICOS,ETC-->
+<!ATTLIST coche marca CDATA “Nissan”><!-- EJEMPLO ATRIBUTO, "NISSAN":VALOR POR DEFECTO-->
+<!ATTLIST coche modelo CDATA #IMPLIED><!-- OPCIONAL-->
+<!ATTLIST coche modelo CDATA #REQUIRED><!-- OBLIGATORIO-->
+<!ATTLIST coche modelo CDATA #FIXED><!-- OBLIGATORIO Y NO PUEDE CAMBIAR-->
+<!ATTLIST coche modelo CDATA><!-- CDATA: CADENA DE CARACTERES-->
+<!ATTLIST coche modelo (Nissan | Seat | Ford)><!-- LISTA DE VALORES A ELEGIR-->
+<!ATTLIST coche modelo ID #REQUIRED><!-- ID OBLIGATORIO-->
+<!ATTLIST equipo
+codEquipo ID #REQUIRED
+categoria (1a|2a|3a) #REQUIRED><!-- EJEMPLO DE ATRIBUTOS-->
