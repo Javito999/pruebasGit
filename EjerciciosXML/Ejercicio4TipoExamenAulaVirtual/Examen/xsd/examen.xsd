@@ -8,14 +8,7 @@
         </xsd:restriction>
     </xsd:simpleType>
 
-    <xsd:complexType name="tipoIdCuenta" >
-       
-        <xsd:choice>
-            <xsd:element name="Ahorro"/>
-            <xsd:element name="Corriente"/>
-        </xsd:choice>
-        
-    </xsd:complexType>
+    
     
 
     <xsd:complexType name="tipoCuentas">
@@ -23,7 +16,7 @@
             <xsd:element name="balance" type="xsd:short"/>
         </xsd:sequence>
         <xsd:attribute name="id" type="xsd:string" use="required"/>
-        <xsd:attribute name="tipo" type="tipoIdCuenta"/>
+        <xsd:attribute name="tipo" type="tipoAttrCuenta"/>
     </xsd:complexType>
 
     <xsd:complexType name="tipoClientes">
