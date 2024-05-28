@@ -8,12 +8,13 @@
                 <xsd:element name="amigoDe" type="xsd:string"/>
                 <xsd:element name="Desde" type="xsd:date"/>
                 <xsd:element name="Calificación" type="xsd:int"/>
+                
             </xsd:sequence>
         </xsd:complexType>
 
 
 
-        <xsd:complexType name="Libro" id="ISBN">
+        <xsd:complexType name="Libro">
            
                 
              <xsd:sequence>
@@ -22,7 +23,7 @@
                 <xsd:element name="Personaje" type="tipoPersonaje"/>
                 <xsd:element name="Calificacion" type="xsd:double"/>
             </xsd:sequence> 
-            
+            <xsd:attribute name="ISBN" type="xsd:string"/>
             
         </xsd:complexType>
 
